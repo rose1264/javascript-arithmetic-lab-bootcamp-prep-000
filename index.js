@@ -23,6 +23,8 @@ function dec(n){
   return --n
 }
 
+n = 'rose'
 function makeInt(n){
-  return parseInt(n)
+  return parseInt(n,10)
+
 }
